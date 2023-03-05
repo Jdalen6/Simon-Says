@@ -1,0 +1,48 @@
+
+<!--Author - James Dalen
+    Student number 21460276
+    Device: M1 MacBook Air
+    Browser: Google Chrome-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Loading font from google and stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-02.css">
+    
+    <title>Simon Says</title>
+</head>
+<body>
+    <!--One main div to hold all contents, then nested divs to store the circles and then the control panel-->
+   <div class="container">
+    <div class="simoncircles">
+        <div id="0" class="circle green"></div>
+        <div id="1" class="circle red"></div>
+        <div id="2" class="circle yellow"></div>
+        <div id="3" class="circle blue"></div>
+        <div class="middle">
+            <!--I added line to the class name so I can display these inline in css-->
+            <div class="score_top line" id="highScore">00</div>
+            <div class="start line" id="startButton">START</div>
+            <div class="score_last line" id="lastScore">00</div>
+            <div class="onoff"></div>
+            <div class="onoff2" id="onoff2"></div>
+        </div>
+    </div>
+   </div>
+   <script src ="assignment-02.js"></script>
+
+
+
+
+</body>
+</html>
